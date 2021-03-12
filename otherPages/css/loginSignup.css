@@ -1,12 +1,12 @@
 .loginWindow {
     position: absolute;
     background-color:white;
-    height: 400px;
-    width: 525px;
+    min-height: 450px;
+    min-width: 525px;
     size: 100%;
     top: 20%;
     left: 30%;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: black 0px 0px 10px;
 }
 
@@ -18,38 +18,38 @@ body {
 
 .loginField1 {
     position: absolute;
-    left: 5%;
-    top: 32%;
+    left: 7%;
+    top: 28%;
 }
 
 .usernameLabel {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     position: absolute;
-    top: 23%;
-    left: 5%;
+    top: 20%;
+    left: 7%;
 }
 
 .loginTitle {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(128, 128, 128, 0.5);
-    left: 15%;
-    top: 2%;
+    left: 13%;
+    top: 3%;
 }
 
 .passwordLabel {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     position: absolute;
-    top: 38%;
-    left: 5%;
+    top: 32%;
+    left: 7%;
 }
 
 .loginField2 {
     position: absolute;
-    left: 5%;
-    top: 48%;
+    left: 7%;
+    top: 41%;
 }
 
 .registerBtn {
@@ -69,7 +69,8 @@ body {
     text-transform: uppercase;
     transition: transform 500ms ease-in-out;
     top: 80%;
-    right: 10%;
+    right: 8%;
+    min-width: 175px;
 }
 
 .registerBtn:hover {
@@ -83,28 +84,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     position: absolute;
-    right: 30%;
-    top: 33%;
+    right: 27%;
+    top: 30%;
 }
 
 .registerUsername {
     position: absolute;
-    top: 45%;
-    right: 11%;
+    top: 41%;
+    right: 8%;
 }
 
 .registerEmailLabel {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    top: 18%;
-    right: 36.5%;
+    top: 15%;
+    right: 33.5%;
 }
 
 .registerEmail {
     position: absolute;
-    top: 32%;
-    right: 11%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 28%;
+    right: 8%;
 }
 
 .registerTitle {
@@ -112,8 +114,8 @@ body {
     font-size: 24pt;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(128, 128, 128, 0.5);
-    right: 15%;
-    top: -5%
+    right: 13%;
+    top: -2%
 }
 
 .blueBtn {
@@ -132,8 +134,8 @@ body {
     font-weight: 200;
     text-transform: uppercase;
     transition: transform 500ms ease-in-out;
-    top: 60%;
-    left: 5%;
+    top: 80%;
+    left: 7%;
     min-width: 175px;
 }
 
@@ -141,10 +143,9 @@ body {
     position: absolute;
     border-top: 2px solid rgba(170, 170, 170, 0.5);
     border-radius: 5px;
-    width: 10%;
-    top: 50%;
-    left: 44%;
-    rotate: initial;
+    width: 75%;
+    top: 47%;
+    left: 12%;
     transform: rotate(90deg);
 }
 
@@ -153,4 +154,39 @@ body {
     background-color: #008cff;
     transition: all 0.1s ease-in-out;
     transform: scale(1.05);
+}
+
+.registerPasswordLabel {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    top: 41%;
+    right: 27.5%;
+}
+
+.registerPassword {
+    position: absolute;
+    top: 54%;
+    right: 8%;
+}
+
+.confirmPassword {
+    position: absolute;
+    top:67%;
+    right: 8%;
+}
+
+.confirmPasswordLabel {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    top: 53%;
+    right: 15%;
+}
+
+.backBtn {
+    max-height: 30px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
 }

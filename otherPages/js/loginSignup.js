@@ -1,14 +1,11 @@
 var objAccouts = [
     {
-        username: "Mr. C. Soldier",
-        password: "Soldier"
-    },
-    {
         username: "testu",
         password: "testp"
-    }
-]
+    },
 
+]
+let existingUsernames = {  } 
 
 function submitRegistration() {
     let rgstrUsername = document.getElementById("registerUsername").value
@@ -27,6 +24,9 @@ function submitRegistration() {
     }
 }
 
+function pgBack() {
+    window.history.back();
+}
 
 function submitCredentials() {
     //alert("Submit button press detected!")
@@ -41,3 +41,48 @@ function submitCredentials() {
     }
     alert("There are no matching credentials. Please try again.")
 }
+
+
+
+
+
+
+
+
+
+
+
+function register() {
+
+    let regUsr = document.getElementById("registerUsername").value
+    let regEmail = document.getElementById("registerEmail").value
+    let regPswrd = document.getElementById("registerPassword").value
+    let confirmRegPswrd = document.getElementById("confirmRegisterPassword").value
+
+    if (regPswrd != confirmRegPswrd) {
+        alert("The Password does not match with the Password Verification Field/Text Box")
+    }
+
+    if (existingUsernames.Contains(regUsr)) {
+
+    } 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
