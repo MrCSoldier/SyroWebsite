@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /otherPages/
+Disallow: /node_modules/
+Disallow: /Images/

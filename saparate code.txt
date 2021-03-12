@@ -1,0 +1,24 @@
+
+//==============================================================================
+//================================= index.js ===================================
+//================================= index.js ===================================
+//================================= index.js ===================================
+//==============================================================================
+
+// var timer = document.getElementById("timer").value
+// if (timer > 0) {
+//     Sleep(timer * 1000)
+//     window.location.replace("./index.html")
+// }
+// function submit() {
+//     var RequiredCode = "";
+//     var roation = 0;
+//     var input = document.getElementById("InputCode").value
+
+//     if (input = "e621") {
+//     alert("oh so you either a furry or just went through the code. alr hacker/furry. lmao")
+//     window.location.replace("./e621Submitted.html")
+//     }
+// }
+
+// let textField = document.getElementById("textBox").value#
