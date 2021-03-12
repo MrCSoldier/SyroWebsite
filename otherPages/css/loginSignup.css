@@ -1,0 +1,156 @@
+.loginWindow {
+    position: absolute;
+    background-color:white;
+    height: 400px;
+    width: 525px;
+    size: 100%;
+    top: 20%;
+    left: 30%;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 10px;
+}
+
+body {
+    background-color: #173f5f;
+    text-align: center;
+    align-items: center;
+}
+
+.loginField1 {
+    position: absolute;
+    left: 5%;
+    top: 32%;
+}
+
+.usernameLabel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+
+.loginTitle {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(128, 128, 128, 0.5);
+    left: 15%;
+    top: 2%;
+}
+
+.passwordLabel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    top: 38%;
+    left: 5%;
+}
+
+.loginField2 {
+    position: absolute;
+    left: 5%;
+    top: 48%;
+}
+
+.registerBtn {
+    position: absolute;
+    background-color: #20639b;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    border: 0px;
+    color: white;
+    padding: 15px 32px;
+    text-align: absolute;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+    transition: transform 500ms ease-in-out;
+    top: 80%;
+    right: 10%;
+}
+
+.registerBtn:hover {
+    box-shadow: 0 0px 8px #001322;
+    background-color: #008cff;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.05);
+}
+
+.registerUsernameLabel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    right: 30%;
+    top: 33%;
+}
+
+.registerUsername {
+    position: absolute;
+    top: 45%;
+    right: 11%;
+}
+
+.registerEmailLabel {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    top: 18%;
+    right: 36.5%;
+}
+
+.registerEmail {
+    position: absolute;
+    top: 32%;
+    right: 11%;
+}
+
+.registerTitle {
+    position: absolute;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(128, 128, 128, 0.5);
+    right: 15%;
+    top: -5%
+}
+
+.blueBtn {
+    position: absolute;
+    background-color: #20639b;
+    text-align: absolute;
+    font-family: 'Varela Round', sans-serif;
+    border: 0px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+    transition: transform 500ms ease-in-out;
+    top: 60%;
+    left: 5%;
+    min-width: 175px;
+}
+
+.separator {
+    position: absolute;
+    border-top: 2px solid rgba(170, 170, 170, 0.5);
+    border-radius: 5px;
+    width: 10%;
+    top: 50%;
+    left: 44%;
+    rotate: initial;
+    transform: rotate(90deg);
+}
+
+.blueBtn:hover {
+    box-shadow: 0 0px 8px #001322;
+    background-color: #008cff;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.05);
+}
